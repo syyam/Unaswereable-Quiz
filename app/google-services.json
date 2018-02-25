@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "494124452220",
+    "firebase_url": "https://unanswerable-quiz-f95aa.firebaseio.com",
+    "project_id": "unanswerable-quiz-f95aa",
+    "storage_bucket": "unanswerable-quiz-f95aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494124452220:android:f02679b2f12b0d6a",
+        "android_client_info": {
+          "package_name": "com.example.syyam.unanswerablequiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494124452220-4j06idb5bl98u08rqa2b8u9esreojraf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCui27Q98Fe8ABR20erk1y9sN4GvsnsgjI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

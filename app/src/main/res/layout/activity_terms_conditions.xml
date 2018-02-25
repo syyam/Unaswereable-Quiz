@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/mywalldark"
+    tools:context="com.example.syyam.unanswerablequiz.termsConditions">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1"
+        android:id="@+id/linearLayout3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="327dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="> All copyright, trade marks, design rights, patents and other intellectual property   rights (registered amd unregistered) in and on UQ and its content belong to Mr.   Syyam Noor and/or third parties. The KBGKP by Syyam reserves all of its rights in    this game. Nothing in the Terms grants you a right or licence to use any trade mark,   design right or copyright owned or controlled by the UQ by Syyam.  "
+
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="119dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="> I agree that:
+      > I have read and accepted the User Agreement and Privacy Policy.
+	    > I am at least 18 years old."
+
+            android:id="@+id/textView11" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="188dp"
+            android:layout_height="100dp"
+            android:text="Yes, I agree"
+            android:id="@+id/agree"
+            android:background="#f3f68a"
+            android:textColor="#5b5a5a" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="188dp"
+            android:layout_height="100dp"
+            android:text="No, I want to back off"
+            android:id="@+id/disagree"
+            android:background="#f3f68a"
+            android:textColor="#5b5a5a"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+</RelativeLayout>
